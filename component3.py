@@ -395,7 +395,7 @@ class HospitalRoutingApp:
         self.ax.autoscale()
         self.canvas.draw_idle()
         
-        msg = f"Route to: {hosp_name}\nApprox Distance: {cost:.0f} meters\nSimpleAI A* Time: {t_elapsed:.4f} sec"
+        msg = f"Route to: {hosp_name}\nApprox Distance: {cost:.0f} meters\n A* Time: {t_elapsed:.4f} sec"
         print(msg)
         messagebox.showinfo("Route Found", msg)
 
