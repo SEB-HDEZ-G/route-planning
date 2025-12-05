@@ -29,7 +29,7 @@ venv/
 env/
 ENV/
 .venv
-
+.venv/
 # pyenv
 .python-version
 
